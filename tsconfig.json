@@ -5,7 +5,7 @@
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
-    "moduleResolution": "Bundler",          // <- capitalize B
+    "moduleResolution": "Bundler",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -15,8 +15,9 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "types": ["node"]                        // <- add this to satisfy path-like types
+    "types": ["node"]
   },
-  "include": ["**/*.ts", "**/*.tsx", "index.html", "vite.config.ts"]
+  "include": ["index.html", "**/*.ts", "**/*.tsx", "vite.config.ts"]
 }
+
 
